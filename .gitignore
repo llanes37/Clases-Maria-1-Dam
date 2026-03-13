@@ -1,0 +1,21 @@
+# !IMPORTANT: Ignora los binarios compilados de Java para no subir artefactos al repositorio.
+# *INFO: Los archivos `.class` se regeneran al compilar y no forman parte del codigo fuente.
+# *INFO: Un error tipico es versionarlos y ensuciar commits con cambios automaticos.
+*.class
+
+# !IMPORTANT: Ignora carpetas de salida comunes de proyectos Java.
+# *INFO: Algunas extensiones o IDEs generan estos directorios al compilar o empaquetar.
+# *INFO: Un error tipico es subir contenido generado en lugar de solo las fuentes.
+bin/
+out/
+build/
+target/
+
+# !IMPORTANT: Ignora configuraciones locales del editor que no aportan al ejercicio.
+# *INFO: Cada equipo puede tener ajustes propios y no conviene mezclarlos con el material docente.
+# *INFO: Un error tipico es compartir archivos de entorno que luego dan conflictos a otros usuarios.
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
